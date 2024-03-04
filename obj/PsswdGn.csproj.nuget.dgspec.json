@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\code\\csharp\\PsswdGn\\PsswdGn.csproj": {}
+    "D:\\code\\c sharp\\PsswdGen\\PsswdGn.csproj": {}
   },
   "projects": {
-    "D:\\code\\csharp\\PsswdGn\\PsswdGn.csproj": {
+    "D:\\code\\c sharp\\PsswdGen\\PsswdGn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\csharp\\PsswdGn\\PsswdGn.csproj",
+        "projectUniqueName": "D:\\code\\c sharp\\PsswdGen\\PsswdGn.csproj",
         "projectName": "PsswdGn",
-        "projectPath": "D:\\code\\csharp\\PsswdGn\\PsswdGn.csproj",
-        "packagesPath": "C:\\Users\\jvne\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\csharp\\PsswdGn\\obj\\",
+        "projectPath": "D:\\code\\c sharp\\PsswdGen\\PsswdGn.csproj",
+        "packagesPath": "C:\\Users\\horiz\\.nuget\\packages\\",
+        "outputPath": "D:\\code\\c sharp\\PsswdGen\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jvne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\horiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -8,18 +8,19 @@
         <Entry x:Name="PsswdField" IsPassword="True"
                AbsoluteLayout.LayoutFlags="PositionProportional"
                AbsoluteLayout.LayoutBounds="0, 0, 250, 50"/>
-        <!--<Button HeightRequest="50" WidthRequest="50" ImageSource="eyeslashfill.png"/>
-        <Switch Margin="0,0,0,0" IsToggled="false" />-->
-        <!--<BoxView Color="Red"
-             AbsoluteLayout.LayoutFlags="PositionProportional"
-             AbsoluteLayout.LayoutBounds="0.5, 0, 100, 100"
-             Rotation="30" />
-        <BoxView Color="Green"
-             AbsoluteLayout.LayoutFlags="PositionProportional"
-             AbsoluteLayout.LayoutBounds="0.5, 0, 100, 100"
-             Rotation="60" />
-        <BoxView Color="Blue"
-             AbsoluteLayout.LayoutFlags="PositionProportional"
-             AbsoluteLayout.LayoutBounds="0.5, 0, 100, 100" />-->
+        <Button Clicked="GenPassword" ImageSource="dice.png" AbsoluteLayout.LayoutBounds="255, 0, 50, 50"/>
+        
+        <Label Text="A-Z" AbsoluteLayout.LayoutBounds="30, 65, 50, 50"/>
+        <CheckBox  AbsoluteLayout.LayoutBounds="50, 50, 50, 50" IsChecked="false" />
+
+        <Label Text="0-9" AbsoluteLayout.LayoutBounds="95, 65, 50, 50"/>
+        <CheckBox AbsoluteLayout.LayoutBounds="115, 50, 50, 50" IsChecked="false" />
+
+        <Label Text="!@#" AbsoluteLayout.LayoutBounds="150, 65, 50, 50" />
+        <CheckBox AbsoluteLayout.LayoutBounds="175, 50, 50, 50" IsChecked="false" />
+
+        <Label Text="Tamaño de la contraseña" AbsoluteLayout.LayoutBounds="55, 125, 300, 50" />
+        <Slider AbsoluteLayout.LayoutBounds="55, 100, 150, 50" Maximum="32" />
+        
     </AbsoluteLayout>
 </ContentPage>

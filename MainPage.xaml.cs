@@ -9,6 +9,10 @@
             InitializeComponent();
         }
 
+        private void GenPassword(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
