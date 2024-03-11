@@ -60,7 +60,14 @@ namespace PsswdGn
 
             if (validChars.Length == 0)
             {
-                throw new ArgumentException("At least one character set must be included.", nameof(alfanumericos));
+                DisplayAlert("Alert", "Tamaño de contraseña igual a cero", "OK");
+                return;
+            }
+
+            if (alfanumericos == false && numericos == false && simbolos == false)
+            {
+                DisplayAlert("Alert", "No ha elegido ningun parametro", "OK");
+                return;
             }
 
             using (var rng = new RNGCryptoServiceProvider())
