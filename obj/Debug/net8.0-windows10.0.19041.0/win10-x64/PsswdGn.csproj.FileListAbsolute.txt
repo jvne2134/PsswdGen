@@ -371,3 +371,10 @@ D:\code\c sharp\PsswdGen\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizeti
 D:\code\c sharp\PsswdGen\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice6.scale-150.png
 D:\code\c sharp\PsswdGen\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice6.scale-200.png
 D:\code\c sharp\PsswdGen\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice6.scale-400.png
+D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice.scale-100.png
+D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice6.scale-100.png
+D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice6.scale-125.png
+D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice6.scale-150.png
+D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice6.scale-200.png
+D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice6.scale-400.png
+D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\PsswdGn.sourcelink.json
