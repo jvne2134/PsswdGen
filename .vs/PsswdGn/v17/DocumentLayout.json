@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\code\\c sharp\\PsswdGen\\",
+  "WorkspaceRootPath": "C:\\Users\\jvne\\Downloads\\PsswdGen-main\\PsswdGen-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE1B61D2-F8F0-4A01-A6FB-4706EB45E407}|PsswdGn.csproj|d:\\code\\c sharp\\psswdgen\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE1B61D2-F8F0-4A01-A6FB-4706EB45E407}|PsswdGn.csproj|c:\\users\\jvne\\downloads\\psswdgen-main\\psswdgen-main\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE1B61D2-F8F0-4A01-A6FB-4706EB45E407}|PsswdGn.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE1B61D2-F8F0-4A01-A6FB-4706EB45E407}|PsswdGn.csproj|d:\\code\\c sharp\\psswdgen\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{DE1B61D2-F8F0-4A01-A6FB-4706EB45E407}|PsswdGn.csproj|c:\\users\\jvne\\downloads\\psswdgen-main\\psswdgen-main\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DE1B61D2-F8F0-4A01-A6FB-4706EB45E407}|PsswdGn.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE1B61D2-F8F0-4A01-A6FB-4706EB45E407}|PsswdGn.csproj|d:\\code\\c sharp\\psswdgen\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE1B61D2-F8F0-4A01-A6FB-4706EB45E407}|PsswdGn.csproj|c:\\users\\jvne\\downloads\\psswdgen-main\\psswdgen-main\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE1B61D2-F8F0-4A01-A6FB-4706EB45E407}|PsswdGn.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,55 +22,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "D:\\code\\c sharp\\PsswdGen\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\jvne\\Downloads\\PsswdGen-main\\PsswdGen-main\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "D:\\code\\c sharp\\PsswdGen\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\jvne\\Downloads\\PsswdGen-main\\PsswdGen-main\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAABoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-28T16:38:22.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-28T16:38:22.243Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\code\\c sharp\\PsswdGen\\App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jvne\\Downloads\\PsswdGen-main\\PsswdGen-main\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "D:\\code\\c sharp\\PsswdGen\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\jvne\\Downloads\\PsswdGen-main\\PsswdGen-main\\App.xaml.cs",
               "RelativeToolTip": "App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T09:22:49.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-11T09:22:49.961Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "D:\\code\\c sharp\\PsswdGen\\MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jvne\\Downloads\\PsswdGen-main\\PsswdGen-main\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "D:\\code\\c sharp\\PsswdGen\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\jvne\\Downloads\\PsswdGen-main\\PsswdGen-main\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAASwEMAAABYAAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAcwFwAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T16:38:19.777Z",
               "EditorCaption": ""

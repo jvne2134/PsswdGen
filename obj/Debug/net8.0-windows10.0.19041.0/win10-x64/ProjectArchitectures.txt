@@ -1,1 +1,1 @@
-D:\code\c sharp\PsswdGen\PsswdGn.csproj;x64
+C:\Users\jvne\Downloads\PsswdGen-main\PsswdGen-main\PsswdGn.csproj;x64

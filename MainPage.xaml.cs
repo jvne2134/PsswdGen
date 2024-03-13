@@ -1,4 +1,5 @@
 ﻿
+using System.Reflection.Metadata.Ecma335;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -65,7 +66,7 @@ namespace PsswdGn
 
             }
 
-            if (Slider_Size.Text == "")
+            if (Slider_Size.Text == "" || Slider_Size.Text == " " || Slider_Size.Text == "0")
             {
                 DisplayAlert("Alerta", "No ha elegido ningun tamaño de la contraseña", "OK");
             }
@@ -87,11 +88,15 @@ namespace PsswdGn
 
                         foreach (char c in password)
                         {
-                            if (c != '\0')
+                            if (c == '\0')
+                            {
+                                continue;
+                            }
+                            else
                             {
                                 password[i] = validChars[bytes[i] % validChars.Length];
                             }
-                            return;
+                            
                         }
                         
                     }
