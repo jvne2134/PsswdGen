@@ -60,14 +60,14 @@ namespace PsswdGn
 
             if (validChars.Length == 0)
             {
-                DisplayAlert("Alert", "Tamaño de contraseña igual a cero", "OK");
-                return;
+
+                DisplayAlert("Alerta", "No ha elegido ningun parametro", "OK");
+
             }
 
-            if (alfanumericos == false && numericos == false && simbolos == false)
+            if (Slider_Size.Text == "")
             {
-                DisplayAlert("Alert", "No ha elegido ningun parametro", "OK");
-                return;
+                DisplayAlert("Alerta", "No ha elegido ningun tamaño de la contraseña", "OK");
             }
 
             using (var rng = new RNGCryptoServiceProvider())
@@ -78,7 +78,23 @@ namespace PsswdGn
 
                 for (int i = 0; i < Convert.ToInt16(sliderCorrectValue); i++)
                 {
-                    password[i] = validChars[bytes[i] % validChars.Length];
+                    if (string.IsNullOrEmpty(new string(password)))
+                    {
+                        return;
+                    }
+                    else
+                    {
+
+                        foreach (char c in password)
+                        {
+                            if (c != '\0')
+                            {
+                                password[i] = validChars[bytes[i] % validChars.Length];
+                            }
+                            return;
+                        }
+                        
+                    }
                 }
 
                 PsswdField.Text = new string(password);
