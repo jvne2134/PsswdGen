@@ -8,7 +8,6 @@
     Title="PsswdGn">
 
     <ShellContent
-        Title="Generador de contraseñas"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 

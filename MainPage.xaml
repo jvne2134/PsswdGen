@@ -5,13 +5,15 @@
 
     <AbsoluteLayout Margin="40">
 
+        <Label TextColor="#ffc0f7" Text="Generador de contraseñas" FontSize="20" AbsoluteLayout.LayoutBounds="55, -35, 500, 200"/>
+        
         <Entry x:Name="PsswdField" IsPassword="True"
                AbsoluteLayout.LayoutFlags="PositionProportional"
                AbsoluteLayout.LayoutBounds="0, 0, 250, 50"/>
-        
-        <Button Clicked="GenPassword" ImageSource="dice.png" AbsoluteLayout.LayoutBounds="255, 0, 50, 50"/>
 
-        <Button Clicked="ToggleTextBox" ImageSource="eyeslashfill.png" AbsoluteLayout.LayoutBounds="310, 0, 50, 50"/>
+        <Button Clicked="GenPassword" ImageSource="dice.png" BackgroundColor="#ffc0f7" AbsoluteLayout.LayoutBounds="255, 0, 50, 50"/>
+
+        <Button Clicked="ToggleTextBox" ImageSource="eyeslashfill.png" BackgroundColor="#ffc0f7" AbsoluteLayout.LayoutBounds="310, 0, 50, 50"/>
 
         <Label Text="A-Z" AbsoluteLayout.LayoutBounds="40, 65, 50, 50"/>
         <CheckBox CheckedChanged="Alfanumericos" AbsoluteLayout.LayoutBounds="60, 50, 50, 50" IsChecked="false" />
@@ -25,7 +27,7 @@
         <Label Text="Tamaño de la contraseña:" AbsoluteLayout.LayoutBounds="70, 125, 300, 50" />
         
         <Label x:Name="Slider_Size" Text="0" AbsoluteLayout.LayoutBounds="245, 125, 100, 50" />
-        <Slider ValueChanged="Slider_ValueChanged" AbsoluteLayout.LayoutBounds="55, 100, 250, 50" Maximum="32" />
+        <Slider MinimumTrackColor="#cc99c5" MaximumTrackColor="#ffc0ee" ThumbColor="#ffc0f7" BackgroundColor="#ffc0f7" ValueChanged="Slider_ValueChanged" AbsoluteLayout.LayoutBounds="55, 100, 250, 50" Maximum="32" />
         
     </AbsoluteLayout>
 </ContentPage>

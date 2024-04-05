@@ -1,1 +1,1 @@
-C:\Users\horiz\Downloads\tes\PsswdGen-main\PsswdGn.csproj;x64
+D:\code\csharp\PsswdGn\PsswdGn.csproj;x64
