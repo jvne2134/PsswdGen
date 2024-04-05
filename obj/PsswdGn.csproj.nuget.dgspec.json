@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jvne\\Downloads\\PsswdGen-main\\PsswdGen-main\\PsswdGn.csproj": {}
+    "C:\\Users\\horiz\\Downloads\\tes\\PsswdGen-main\\PsswdGn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jvne\\Downloads\\PsswdGen-main\\PsswdGen-main\\PsswdGn.csproj": {
+    "C:\\Users\\horiz\\Downloads\\tes\\PsswdGen-main\\PsswdGn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jvne\\Downloads\\PsswdGen-main\\PsswdGen-main\\PsswdGn.csproj",
+        "projectUniqueName": "C:\\Users\\horiz\\Downloads\\tes\\PsswdGen-main\\PsswdGn.csproj",
         "projectName": "PsswdGn",
-        "projectPath": "C:\\Users\\jvne\\Downloads\\PsswdGen-main\\PsswdGen-main\\PsswdGn.csproj",
-        "packagesPath": "C:\\Users\\jvne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jvne\\Downloads\\PsswdGen-main\\PsswdGen-main\\obj\\",
+        "projectPath": "C:\\Users\\horiz\\Downloads\\tes\\PsswdGen-main\\PsswdGn.csproj",
+        "packagesPath": "C:\\Users\\horiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\horiz\\Downloads\\tes\\PsswdGen-main\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jvne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\horiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -188,3 +188,8 @@ D:\code\c sharp\PsswdGen\obj\Release\net8.0-windows10.0.19041.0\win10-x64\qualif
 D:\code\c sharp\PsswdGen\obj\Release\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\code\c sharp\PsswdGen\obj\Release\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\code\c sharp\PsswdGen\obj\Release\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\code\c sharp\PsswdGen\bin\Release\net8.0-windows10.0.19041.0\win10-x64\runtimes\win-x64\native\WebView2Loader.dll
+D:\code\c sharp\PsswdGen\bin\Release\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Web.WebView2.Core.dll
+D:\code\c sharp\PsswdGen\bin\Release\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Web.WebView2.WinForms.dll
+D:\code\c sharp\PsswdGen\bin\Release\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Web.WebView2.Wpf.dll
+D:\code\c sharp\PsswdGen\bin\Release\net8.0-windows10.0.19041.0\win10-x64\WebView2Loader.dll

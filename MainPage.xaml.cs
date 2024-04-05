@@ -1,5 +1,4 @@
 ﻿
-using System.Reflection.Metadata.Ecma335;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -61,14 +60,14 @@ namespace PsswdGn
 
             if (validChars.Length == 0)
             {
-
-                DisplayAlert("Alerta", "No ha elegido ningun parametro", "OK");
-
+                DisplayAlert("Alert", "Tamaño de contraseña igual a cero", "OK");
+                return;
             }
 
-            if (Slider_Size.Text == "" || Slider_Size.Text == " " || Slider_Size.Text == "0")
+            if (alfanumericos == false && numericos == false && simbolos == false)
             {
-                DisplayAlert("Alerta", "No ha elegido ningun tamaño de la contraseña", "OK");
+                DisplayAlert("Alert", "No ha elegido ningun parametro", "OK");
+                return;
             }
 
             using (var rng = new RNGCryptoServiceProvider())
@@ -79,27 +78,7 @@ namespace PsswdGn
 
                 for (int i = 0; i < Convert.ToInt16(sliderCorrectValue); i++)
                 {
-                    if (string.IsNullOrEmpty(new string(password)))
-                    {
-                        return;
-                    }
-                    else
-                    {
-
-                        foreach (char c in password)
-                        {
-                            if (c == '\0')
-                            {
-                                continue;
-                            }
-                            else
-                            {
-                                password[i] = validChars[bytes[i] % validChars.Length];
-                            }
-                            
-                        }
-                        
-                    }
+                    password[i] = validChars[bytes[i] % validChars.Length];
                 }
 
                 PsswdField.Text = new string(password);

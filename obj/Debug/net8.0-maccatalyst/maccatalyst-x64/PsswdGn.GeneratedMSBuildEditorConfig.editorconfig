@@ -12,35 +12,35 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PsswdGn
-build_property.ProjectDir = C:\Users\jvne\Downloads\PsswdGen-main\PsswdGen-main\
+build_property.ProjectDir = C:\Users\horiz\Downloads\tes\PsswdGen-main\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/jvne/Downloads/PsswdGen-main/PsswdGen-main/App.xaml]
+[C:/Users/horiz/Downloads/tes/PsswdGen-main/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PsswdGn.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/jvne/Downloads/PsswdGen-main/PsswdGen-main/AppShell.xaml]
+[C:/Users/horiz/Downloads/tes/PsswdGen-main/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PsswdGn.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/jvne/Downloads/PsswdGen-main/PsswdGen-main/MainPage.xaml]
+[C:/Users/horiz/Downloads/tes/PsswdGen-main/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PsswdGn.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/jvne/Downloads/PsswdGen-main/PsswdGen-main/Resources/Styles/Colors.xaml]
+[C:/Users/horiz/Downloads/tes/PsswdGen-main/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PsswdGn.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/jvne/Downloads/PsswdGen-main/PsswdGen-main/Resources/Styles/Styles.xaml]
+[C:/Users/horiz/Downloads/tes/PsswdGen-main/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PsswdGn.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
