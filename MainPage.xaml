@@ -3,10 +3,39 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PsswdGn.MainPage">
 
-    <AbsoluteLayout Margin="40">
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="LightGray" />
+            <Setter Property="FontSize" Value="24" />
+            <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+            <Setter Property="VerticalOptions" Value="FillAndExpand" />
+            <Setter Property="Margin" Value="2" />
+        </Style>
+    </ContentPage.Resources>
+    <ScrollView>
+        <Grid RowDefinitions="Auto,*,*,*,*,*" ColumnDefinitions="*,*,*,*,*,*">
+            <Label TextColor="#ffc0f7" Text="Generador de contraseñas" FontAttributes="Bold" FontSize="20" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" Margin="0,0,20,0"/>
+            <Entry x:Name="PsswdField" IsReadOnly="True"  Margin="10,0,0,80" HeightRequest="20" IsPassword="True" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" />
+            <Button HeightRequest="50" WidthRequest="50" Clicked="GenPassword" ImageSource="dice.png" BackgroundColor="#ffc0f7" Grid.Row="2" Grid.Column="3" Margin="40,0,0,80"/>
+            <Button HeightRequest="50" WidthRequest="50" Clicked="ToggleTextBox" ImageSource="eyeslashfill.png" BackgroundColor="#ffc0f7" Grid.Row="2" Grid.Column="4" Margin="20,0,0,80"/>
+            <Button x:Name="ClipboardBtn" HeightRequest="50" WidthRequest="50" Clicked="CopyToClipboard" ImageSource="clipboard.png" BackgroundColor="#ffc0f7" Grid.Row="2" Grid.Column="5" Margin="0,0,0,80"/>
+            <Label Text="A-Z" Grid.Row="2" Grid.Column="1" Margin="50,80,0,0"/>
+            <CheckBox CheckedChanged="Alfanumericos" Grid.Row="2" Grid.Column="2" Margin="0,52,0,0" />
+            <Label Text="0-9" Grid.Row="2" Grid.Column="3" Margin="50,80,0,0"/>
+            <CheckBox CheckedChanged="Numericos" Grid.Row="2" Grid.Column="4" Margin="0,52,0,0" />
+            <Label Text="!@#" Grid.Row="2" Grid.Column="2" Margin="46,80,0,0" />
+            <CheckBox CheckedChanged="Simbolos" Grid.Row="2" Grid.Column="3" Margin="0,52,0,0" />
+            <Label Margin="0,110,0,0" x:Name="Slider_Size" Text="0" Grid.Row="2" Grid.Column="3" />
+            <Slider MinimumTrackColor="#cc99c5" MaximumTrackColor="#ffc0ee" ThumbColor="#ffc0f7" BackgroundColor="#ffc0f7" ValueChanged="Slider_ValueChanged" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="4" Maximum="32"/>
+            <Label Text="Tamaño de la contraseña:" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="4" Margin="0,40,0,0"/>
+        </Grid>
+    </ScrollView>
+
+    <!--<AbsoluteLayout Margin="40">
 
         <Label TextColor="#ffc0f7" Text="Generador de contraseñas" FontSize="20" AbsoluteLayout.LayoutBounds="55, -35, 500, 200"/>
-        
+
         <Entry x:Name="PsswdField" IsPassword="True"
                AbsoluteLayout.LayoutFlags="PositionProportional"
                AbsoluteLayout.LayoutBounds="0, 0, 250, 50"/>
@@ -25,9 +54,9 @@
         <CheckBox CheckedChanged="Simbolos" AbsoluteLayout.LayoutBounds="215, 50, 50, 50" IsChecked="false" />
 
         <Label Text="Tamaño de la contraseña:" AbsoluteLayout.LayoutBounds="70, 125, 300, 50" />
-        
+
         <Label x:Name="Slider_Size" Text="0" AbsoluteLayout.LayoutBounds="245, 125, 100, 50" />
         <Slider MinimumTrackColor="#cc99c5" MaximumTrackColor="#ffc0ee" ThumbColor="#ffc0f7" BackgroundColor="#ffc0f7" ValueChanged="Slider_ValueChanged" AbsoluteLayout.LayoutBounds="55, 100, 250, 50" Maximum="32" />
-        
-    </AbsoluteLayout>
+
+    </AbsoluteLayout>-->
 </ContentPage>

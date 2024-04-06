@@ -1,0 +1,2 @@
+D:\code\csharp\PsswdGn\bin\Debug\net8.0-ios\iossimulator-x64\System.IO.FileSystem.Primitives.dll
+D:\code\csharp\PsswdGn\bin\Debug\net8.0-ios\iossimulator-x64\System.Private.CoreLib.dll

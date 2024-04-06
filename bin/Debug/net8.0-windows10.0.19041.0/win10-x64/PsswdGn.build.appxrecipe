@@ -199,6 +199,9 @@
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\clipboard.scale-100.png">
+      <PackagePath>clipboard.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice.scale-100.png">
       <PackagePath>dice.scale-100.png</PackagePath>
     </AppxPackagedFile>
