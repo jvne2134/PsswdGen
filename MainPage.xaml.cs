@@ -9,7 +9,7 @@ namespace PsswdGn
 
         private const string LowercaseLetters = "abcdefghijklmnopqrstuvwxyz";
         private const string UppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        private const string Digits = "0123456789";
+        private const string Digits = "01234567899876542112456789";
         private const string Symbols = "!@#$%^&*()-_=+";
 
         public bool alfanumericos;
@@ -126,6 +126,5 @@ namespace PsswdGn
         }
 
     }
-
 
 }

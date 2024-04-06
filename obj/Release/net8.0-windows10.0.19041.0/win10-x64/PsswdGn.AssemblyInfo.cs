@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PsswdGn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3ef037473e9ccd8f4c6f8fab821434352aa09160")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+5a3e3d2e82882d5b20331851d3c88cd3898bb5ba")]
 [assembly: System.Reflection.AssemblyProductAttribute("PsswdGn")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PsswdGn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

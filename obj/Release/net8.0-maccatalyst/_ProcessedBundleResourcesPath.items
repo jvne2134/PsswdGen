@@ -1,6 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <BundleResource Include="obj\Release\net8.0-maccatalyst\resizetizer\f\MauiInfo.plist" />
+    <BundleResource Include="D:\code\csharp\PsswdGn\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\clipboard.png" />
+    <BundleResource Include="D:\code\csharp\PsswdGn\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\dice.png" />
+    <BundleResource Include="D:\code\csharp\PsswdGn\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\eyeslashfill.png" />
+    <BundleResource Include="D:\code\csharp\PsswdGn\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot@3x.png" />
+    <BundleResource Include="D:\code\csharp\PsswdGn\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot@2x.png" />
+    <BundleResource Include="D:\code\csharp\PsswdGn\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot.png" />
+    <BundleResource Include="D:\code\csharp\PsswdGn\obj\Release\net8.0-maccatalyst\resizetizer\r\eyefill@3x.png" />
+    <BundleResource Include="D:\code\csharp\PsswdGn\obj\Release\net8.0-maccatalyst\resizetizer\r\eyefill@2x.png" />
+    <BundleResource Include="D:\code\csharp\PsswdGn\obj\Release\net8.0-maccatalyst\resizetizer\r\eyefill.png" />
+    <BundleResource Include="D:\code\csharp\PsswdGn\obj\Release\net8.0-maccatalyst\resizetizer\r\dice6@3x.png" />
+    <BundleResource Include="D:\code\csharp\PsswdGn\obj\Release\net8.0-maccatalyst\resizetizer\r\dice6@2x.png" />
+    <BundleResource Include="D:\code\csharp\PsswdGn\obj\Release\net8.0-maccatalyst\resizetizer\r\dice6.png" />
+    <BundleResource Include="obj\Release\net8.0-maccatalyst\resizetizer\f\OpenSans-Regular.ttf" />
+    <BundleResource Include="obj\Release\net8.0-maccatalyst\resizetizer\f\OpenSans-Semibold.ttf" />
   </ItemGroup>
 </Project>
