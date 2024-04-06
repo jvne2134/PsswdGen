@@ -29,25 +29,25 @@
     <AppXManifest Include="D:\code\csharp\PsswdGn\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-05T03:57:13.056</Modified>
+      <Modified>2024-04-06T18:46:40.153</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-04-05T02:38:48.871</Modified>
+      <Modified>2024-04-06T18:45:33.459</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PsswdGn.runtimeconfig.json">
       <PackagePath>PsswdGn.runtimeconfig.json</PackagePath>
-      <Modified>2024-04-05T02:38:48.530</Modified>
+      <Modified>2024-04-06T17:24:58.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PsswdGn.dll">
       <PackagePath>PsswdGn.dll</PackagePath>
-      <Modified>2024-04-05T03:57:11.651</Modified>
+      <Modified>2024-04-06T18:46:39.660</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PsswdGn.exe</PackagePath>
-      <Modified>2024-04-05T03:57:11.787</Modified>
+      <Modified>2024-04-06T18:46:39.667</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -265,69 +265,73 @@
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2024-03-13T17:19:31.387</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\clipboard.scale-100.png">
+      <PackagePath>clipboard.scale-100.png</PackagePath>
+      <Modified>2024-04-06T18:38:29.184</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice.scale-100.png">
       <PackagePath>dice.scale-100.png</PackagePath>
       <Modified>2024-03-13T16:48:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice6.scale-100.png">
       <PackagePath>dice6.scale-100.png</PackagePath>
-      <Modified>2024-03-13T17:19:30.647</Modified>
+      <Modified>2024-04-06T18:38:38.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice6.scale-125.png">
       <PackagePath>dice6.scale-125.png</PackagePath>
-      <Modified>2024-03-13T17:19:30.649</Modified>
+      <Modified>2024-04-06T18:38:38.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice6.scale-150.png">
       <PackagePath>dice6.scale-150.png</PackagePath>
-      <Modified>2024-03-13T17:19:30.651</Modified>
+      <Modified>2024-04-06T18:38:39.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice6.scale-200.png">
       <PackagePath>dice6.scale-200.png</PackagePath>
-      <Modified>2024-03-13T17:19:30.653</Modified>
+      <Modified>2024-04-06T18:38:39.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice6.scale-400.png">
       <PackagePath>dice6.scale-400.png</PackagePath>
-      <Modified>2024-03-13T17:19:30.655</Modified>
+      <Modified>2024-04-06T18:38:39.004</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-03-13T17:19:30.672</Modified>
+      <Modified>2024-04-06T18:38:38.885</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-03-13T17:19:30.692</Modified>
+      <Modified>2024-04-06T18:38:38.900</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-03-13T17:19:30.712</Modified>
+      <Modified>2024-04-06T18:38:38.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-03-13T17:19:30.742</Modified>
+      <Modified>2024-04-06T18:38:38.947</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-03-13T17:19:30.850</Modified>
+      <Modified>2024-04-06T18:38:39.044</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eyefill.scale-100.png">
       <PackagePath>eyefill.scale-100.png</PackagePath>
-      <Modified>2024-03-13T17:19:30.647</Modified>
+      <Modified>2024-04-06T18:38:38.998</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eyefill.scale-125.png">
       <PackagePath>eyefill.scale-125.png</PackagePath>
-      <Modified>2024-03-13T17:19:30.649</Modified>
+      <Modified>2024-04-06T18:38:38.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eyefill.scale-150.png">
       <PackagePath>eyefill.scale-150.png</PackagePath>
-      <Modified>2024-03-13T17:19:30.651</Modified>
+      <Modified>2024-04-06T18:38:39.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eyefill.scale-200.png">
       <PackagePath>eyefill.scale-200.png</PackagePath>
-      <Modified>2024-03-13T17:19:30.654</Modified>
+      <Modified>2024-04-06T18:38:39.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eyefill.scale-400.png">
       <PackagePath>eyefill.scale-400.png</PackagePath>
-      <Modified>2024-03-13T17:19:30.657</Modified>
+      <Modified>2024-04-06T18:38:39.004</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eyeslashfill.scale-100.png">
       <PackagePath>eyeslashfill.scale-100.png</PackagePath>
@@ -335,7 +339,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\code\csharp\PsswdGn\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PsswdGn.deps.json">
       <PackagePath>PsswdGn.deps.json</PackagePath>
-      <Modified>2024-04-05T02:38:48.476</Modified>
+      <Modified>2024-04-06T17:24:58.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jvne\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

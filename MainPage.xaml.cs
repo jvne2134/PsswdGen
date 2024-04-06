@@ -1,6 +1,6 @@
-﻿
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
+using Microsoft.Maui.ApplicationModel.DataTransfer;
 
 namespace PsswdGn
 {
@@ -18,7 +18,7 @@ namespace PsswdGn
 
         readonly double sliderIncrement = 1;
 
-        public double sliderCorrectValue;
+        public double sliderCorrectedValue;
 
         Slider slider = new()
         {
@@ -72,11 +72,11 @@ namespace PsswdGn
 
             using (var rng = new RNGCryptoServiceProvider())
             {
-                var bytes = new byte[Convert.ToInt16(sliderCorrectValue)];
+                var bytes = new byte[Convert.ToInt16(sliderCorrectedValue)];
                 rng.GetBytes(bytes);
-                var password = new char[Convert.ToInt16(sliderCorrectValue)];
+                var password = new char[Convert.ToInt16(sliderCorrectedValue)];
 
-                for (int i = 0; i < Convert.ToInt16(sliderCorrectValue); i++)
+                for (int i = 0; i < Convert.ToInt16(sliderCorrectedValue); i++)
                 {
                     password[i] = validChars[bytes[i] % validChars.Length];
                 }
@@ -111,22 +111,21 @@ namespace PsswdGn
             // Recognize the sender as a Slider object.
             Slider slider = (Slider)sender;
 
-            // Get the slider value relative to the minimum,
-            // needed to calculate valid values with increment.
-            double relativeValue = slider.Value - slider.Minimum;
+            sliderCorrectedValue = (int)Math.Round(slider.Value);
 
-
-            // Check if the value is valid, based on our increment.
-            if (relativeValue % sliderIncrement == 0)
-            {
-                // Value is valid
-                sliderCorrectValue = slider.Value;
-
-                // Update label text (optional)
-                Slider_Size.Text = slider.Value.ToString();
-            }
+            Slider_Size.Text = sliderCorrectedValue.ToString();
 
         }
+
+        private void CopyToClipboard(object sender, EventArgs e)
+        {
+            Clipboard.Default.SetTextAsync(PsswdField.Text);
+
+            ClipboardBtn.BackgroundColor = Color.FromArgb("cc99c5");
+
+        }
+
     }
+
 
 }
