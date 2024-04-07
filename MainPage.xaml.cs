@@ -58,7 +58,7 @@ namespace PsswdGn
                 validChars.Append(Symbols);
             }
 
-            if (validChars.Length == 0)
+            if (PsswdSlider.Value == 0 || PsswdSlider== null)
             {
                 DisplayAlert("Alert", "Tamaño de contraseña igual a cero", "OK");
                 return;

@@ -377,3 +377,4 @@ C:\Users\horiz\Downloads\tes\PsswdGen-main\obj\Debug\net8.0-windows10.0.19041.0\
 C:\Users\horiz\Downloads\tes\PsswdGen-main\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\horiz\Downloads\tes\PsswdGen-main\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\horiz\Downloads\tes\PsswdGen-main\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\code\c sharp\PsswdGen\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\clipboard.scale-100.png
